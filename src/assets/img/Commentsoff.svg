@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.21568628 0 0 0 0 0.25490198 0 0 0 0 0.28235295 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Comments-off" filter="url(#filter_1)">
+    <g id="Comments-off">
+      <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" id="Oval" fill="none" fill-rule="evenodd" stroke="#374148" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0.6 1.8L0.6 0.6" transform="translate(8.400001 3.6000001)" id="Path" fill="none" fill-rule="evenodd" stroke="#374148" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0.6 4.8L0.6 -1.59872e-15" transform="translate(8.400001 8.400001)" id="Path" fill="none" fill-rule="evenodd" stroke="#374148" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

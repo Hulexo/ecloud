@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.21568628 0 0 0 0 0.25490198 0 0 0 0 0.28235295 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Full-Screen-Off" filter="url(#filter_1)">
+    <g id="Full-Screen-Off">
+      <path d="M5 0L2 0C0.895431 0 0 0.895431 0 2L0 5M18 5L18 2C18 0.895431 17.1046 0 16 0L13 0M13 18L16 18C17.1046 18 18 17.1046 18 16L18 13M0 13L0 16C0 17.1046 0.895431 18 2 18L5 18" id="Shape" fill="none" fill-rule="evenodd" stroke="#647480" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="49px" height="51px" viewBox="0 0 49 51" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="ICON-Performance-Copy">
+    <g id="Group-10" transform="translate(4 7.5)">
+      <path d="M0 4L5 0" transform="translate(29 7.5)" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 9L5.40779 4.42582L8.65808 7.92656L17 0" transform="translate(2 3.5)" id="Stroke-2" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 4.71699L4.33001 0L8.53998 4.85139L10.9787 2.60838" transform="translate(0.12246766 21.522644)" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0L4.9944 0C5.53236 0 5.96877 0.448753 5.96877 1.00235L5.96877 6.14024" transform="translate(30.970705 4.7709837)" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0L5.95431 0C6.59583 0 7.11604 0.535153 7.11604 1.19511L7.11604 7.32047" transform="translate(15.202145 0.6368847)" id="Stroke-7" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="Burger-Icon" transform="translate(19 23)">
+      <path d="M3.7612 15C1.68395 15 0 13.2974 0 11.1972C0 9.09694 1.68395 7.39437 3.7612 7.39437C3.93035 7.39437 4.09691 7.40566 4.26016 7.42752C4.20715 7.21436 4.17911 6.99077 4.17911 6.76055C4.17911 5.24372 5.39529 4.01408 6.89555 4.01408C7.57294 4.01408 8.19247 4.26478 8.66822 4.67946C8.78649 4.64183 8.90689 4.60824 9.029 4.57898C9.80794 1.93444 12.3 0 15.2537 0C18.0475 0 20.4282 1.73054 21.3372 4.15583C21.7319 4.06302 22.1439 4.01408 22.5672 4.01408C25.5676 4.01408 28 6.47336 28 9.50703C28 12.5407 25.5676 15 22.5672 15L3.7612 15Z" transform="translate(-1 2)" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" />
+    </g>
+  </g>
+</svg>
