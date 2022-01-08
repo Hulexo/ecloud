@@ -1,8 +1,19 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
-const Pagination = () => {
+const Pagination = ({
+  postPerPage,
+  totalPost,
+  paginate,
+  handlePrev,
+  handleNext,
+}) => {
+  const pageNumbers = [];
+  const int = Math.ceil(totalPost / postPerPage);
+  if (int === 1) return null;
+  for (let i = 1; i <= int; i++) {
+    pageNumbers.push(i);
+  }
   return (
     <>
       <div className="row">
@@ -12,36 +23,29 @@ const Pagination = () => {
               <ul className="pagination">
                 <li className="page-item">
                   <Link to="#" className="page-link" aria-label="Previous">
-                    <span aria-hidden="true">«</span>
+                    <span aria-hidden="true" onClick={handlePrev}>
+                      «
+                    </span>
                   </Link>
                 </li>
-                <li className="page-item active">
-                  <Link className="page-link" to="#" data-hover="1">
-                    1
-                  </Link>
-                </li>
+                {pageNumbers.map((number) => (
+                  <li key={number}>
+                    <Link
+                      onClick={() => paginate(number)}
+                      to="#"
+                      className="page-link"
+                    >
+                      <span aria-hidden="true">{number}</span>
+                    </Link>
+                  </li>
+                ))}
                 <li className="page-item">
-                  <Link className="page-link" to="#" data-hover="2">
-                    2
-                  </Link>
-                </li>
-                <li className="page-item">
-                  <Link className="page-link" to="#" data-hover="3">
-                    3
-                  </Link>
-                </li>
-                <li className="page-item">
-                  <Link className="page-link" to="#" data-hover="4">
-                    4
-                  </Link>
-                </li>
-                <li className="page-item">
-                  <Link className="page-link" to="#" data-hover="5">
-                    5
-                  </Link>
-                </li>
-                <li className="page-item">
-                  <Link to="#" className="page-link" aria-label="Next">
+                  <Link
+                    to="#"
+                    className="page-link"
+                    aria-label="Next"
+                    onClick={handleNext}
+                  >
                     <span aria-hidden="true">»</span>
                   </Link>
                 </li>
