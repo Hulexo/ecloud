@@ -742,7 +742,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 0px;
+  padding: 5px 10px;
 }
 .card-orderstsus p {
   font-weight: 400;
@@ -753,11 +753,15 @@ a:hover {
   font-weight: 400;
   font-size: 14px;
 }
+.usrname {
+  padding: 0px 10px;
+}
+
 .cards .card-body .card-text .card-delivry {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 0px;
+  padding: 8px 10px;
   color: #ffffff;
 }
 
@@ -783,6 +787,7 @@ a:hover {
 .cardselect-dropdown .selectpicker option {
   background-color: #1f2327;
   color: #ffffff;
+  padding: 0px 2px;
 }
 .cardselect-dropdown .selectpicker {
   background-color: transparent;
@@ -801,7 +806,7 @@ a:hover {
 .itemsname .itemname-title {
   font-size: 20px;
   color: #979797;
-  padding-top: 10px;
+  padding-top: 6px;
   padding-left: 26px;
 }
 .itemdetail {
@@ -834,7 +839,7 @@ a:hover {
   justify-content: space-between;
   margin-top: 150px;
   background-color: #1f2327;
-  padding: 10px 0px;
+  padding: 10px 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -879,11 +884,11 @@ a:hover {
   margin: 5px 4px 0px 4px;
 }
 .sortitem .itemsname {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 .sortitem .itemsname span {
   position: absolute;
-  left: 0px;
+  left: 1px;
   font-size: 20px;
   color: gray;
 }
@@ -2939,8 +2944,14 @@ PAGE 17
   padding: 10px 0px;
 }
 .bigchaticon {
-  position: absolute;
-  right: 0px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 28px;
+  cursor: pointer;
 }
 /* 
 ****************************************

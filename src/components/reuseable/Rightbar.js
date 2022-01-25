@@ -10,23 +10,25 @@ const Rightbar = () => {
         <option value="2">Two</option>
         <option value="3">Three</option>
       </select>
-      {sidbarInfo.map((data) => {
-        const { id, dummy, count } = data;
+      <div className="mt-2">
+        {sidbarInfo.map((data) => {
+          const { id, dummy, count } = data;
 
-        return (
-          <div className="itemsname " key={id}>
-            <ul>
-              <li className="itemname-title"> {dummy}</li>
-              <li className="itemdetail">
-                <span>{count}</span>
-                {dummy} {dummy}
-                <br />
-                {dummy} {dummy}
-              </li>
-            </ul>
-          </div>
-        );
-      })}
+          return (
+            <div className="itemsname" key={id}>
+              <ul>
+                <li className="itemname-title"> {dummy}</li>
+                <li className="itemdetail">
+                  <span>{count}</span>
+                  {dummy} {dummy}
+                  <br />
+                  {dummy} {dummy}
+                </li>
+              </ul>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

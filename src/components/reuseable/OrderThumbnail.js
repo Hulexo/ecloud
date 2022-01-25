@@ -5,7 +5,7 @@ import small from "../../assets/img/OrdersmallThumbnail01.svg";
 
 const OrderThumbnail = () => {
   return (
-    <div className="orderthumbail panelhover">
+    <div className="orderthumbail">
       <div>
         <Link to="#">
           <img src={big} alt="" />
