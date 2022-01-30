@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Sidebar from "../../components/reuseable/Sidebar";
 import Header from "../../components/reuseable/Header";
 import Filters from "../../components/reuseable/Filters";
@@ -9,6 +9,9 @@ import FilterTable from "../../components/reuseable/FilterTable";
 import Summary from "../../components/Summary";
 
 const TableView1 = () => {
+  const [orderStatus, setOrderStatus] = useState("All");
+  const [sort, setSort] = useState("All");
+
   return (
     <div className="container-fluid">
       <div className="row g-0">
@@ -21,9 +24,12 @@ const TableView1 = () => {
             <div className="col-8 mt-3 g-2">
               <div className="mainsection ">
                 <Filters />
-                <Tags />
+                <Tags
+                  orderStatus={orderStatus}
+                  setOrderStatus={setOrderStatus}
+                />
                 <div className="row table-sorting">
-                  <FilterTable />
+                  <FilterTable orderStatus={orderStatus} />
                 </div>
               </div>
             </div>
@@ -32,7 +38,7 @@ const TableView1 = () => {
             </div>
             <div className="col-2 mt-3 g-2 helo">
               <div className="sortitem">
-                <Rightbar />
+                <Rightbar sort={sort} setSort={setSort} />
                 <Chat />
               </div>
             </div>

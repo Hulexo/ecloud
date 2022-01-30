@@ -67,21 +67,25 @@ export const cardInfo = [
 export const sidbarInfo = [
   {
     id: 1,
+    title: "1",
     dummy: "item name tag",
     count: "00",
   },
   {
     id: 2,
+    title: "2",
     dummy: "item name tag",
     count: "00",
   },
   {
     id: 3,
+    title: "3",
     dummy: "item name tag",
     count: "00",
   },
   {
     id: 4,
+    title: "2",
     drop3: "Three",
     dummy: "item name tag",
     count: "00",
@@ -119,7 +123,7 @@ export const TableData = [
   {
     id: "2",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Delivered",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -133,7 +137,7 @@ export const TableData = [
   {
     id: "3",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Delivered",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -161,7 +165,7 @@ export const TableData = [
   {
     id: "5",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Delivered",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -175,7 +179,7 @@ export const TableData = [
   {
     id: "6",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -189,7 +193,7 @@ export const TableData = [
   {
     id: "7",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -203,7 +207,7 @@ export const TableData = [
   {
     id: "8",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -217,7 +221,7 @@ export const TableData = [
   {
     id: "9",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -231,7 +235,7 @@ export const TableData = [
   {
     id: "10",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -245,7 +249,7 @@ export const TableData = [
   {
     id: "11",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -259,7 +263,7 @@ export const TableData = [
   {
     id: "12",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Pending",
     Menu: "000",
     Total: "000",
     Rider: "00.00",
@@ -287,7 +291,7 @@ export const TableData = [
   {
     id: "14",
     Brand: "Serial no",
-    status: "Delivery",
+    status: "Delivered",
     Menu: "000",
     Total: "000",
     Rider: "00.00",

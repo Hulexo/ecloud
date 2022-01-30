@@ -1,14 +1,25 @@
 import React from "react";
 
-export const SingleTag = () => {
+export const SingleTag = (props) => {
+  const { setOrderStatus, orderStatus } = props;
+  const handleChange = (e) => {
+    setOrderStatus(e.target.value);
+  };
   return (
     <div className="col-sm-2">
       <div className="tags helo">
-        <select className="form-select" aria-label="">
-          <option defaultValue>Tags</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+        <select
+          defaultValue={orderStatus}
+          className="form-select"
+          onChange={handleChange}
+          aria-label=""
+        >
+          <option value="All" selected>
+            Tags
+          </option>
+          <option value="Delivered">Delivered</option>
+          <option value="Pending">Pending</option>
+          <option value="Delivery">Delivery</option>
         </select>
       </div>
     </div>

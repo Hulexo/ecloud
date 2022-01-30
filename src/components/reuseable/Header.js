@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
 import logo from "../../assets/img/CLOUD-Logo.svg";
 import share from "../../assets/img/share.svg";
 import dark from "../../assets/img/SwitchtoLigh.svg";
@@ -7,6 +7,7 @@ import ICONKitchen from "../../assets/img/ICONKitchen.svg";
 
 const Header = () => {
   const location = useLocation();
+  const history = useHistory();
   const currentUrl = location.pathname;
   return (
     <div className="row topbar">
@@ -183,9 +184,8 @@ const Header = () => {
           <div className="usernametogle">
             <select className="form-select" aria-label="">
               <option defaultValue>User name</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option value="1">Profile</option>
+              <option value="2">Sign out</option>
             </select>
           </div>
         </div>

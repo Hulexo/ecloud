@@ -6,11 +6,7 @@ import small from "../../assets/img/OrdersmallThumbnail01.svg";
 const OrderThumbnail = () => {
   return (
     <div className="orderthumbail">
-      <div>
-        <Link to="#">
-          <img src={big} alt="" />
-        </Link>
-      </div>
+      <div className="items">123</div>
       <div>
         <Link to="#">
           <img src={big} alt="" />
@@ -26,7 +22,7 @@ const OrderThumbnail = () => {
           </Link>
         </div>
         <div>
-          <span className="badge">8</span>
+          <span>8</span>
         </div>
       </div>
       <div>
@@ -47,7 +43,7 @@ const OrderThumbnail = () => {
           </Link>
         </div>
         <div>
-          <span className="badge">2</span>
+          <span>2</span>
         </div>
       </div>
 

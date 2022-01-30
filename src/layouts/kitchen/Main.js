@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Sidebar from "../../components/reuseable/Sidebar";
 import Header from "../../components/reuseable/Header";
 import OrderStatus from "../../components/reuseable/OrderStatus";
@@ -8,6 +8,8 @@ import Rightbar from "../../components/reuseable/Rightbar";
 import Chat from "../../components/reuseable/Chat";
 
 const Main = () => {
+  const [sort, setSort] = useState("All");
+
   return (
     <div className="container-fluid">
       <div className="row">
@@ -25,7 +27,7 @@ const Main = () => {
               </div>
               <div className="col-2 helo">
                 <div className="sortitem">
-                  <Rightbar />
+                  <Rightbar sort={sort} setSort={setSort} />
                   <Chat />
                 </div>
               </div>

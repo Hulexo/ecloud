@@ -849,6 +849,14 @@ a:hover {
   align-items: baseline;
   margin-top: 40px;
 }
+
+.orderthumbail.itmes {
+  border: 1px solid #0d6efd;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
 .orderthumbail a img {
   margin-right: 12px;
 }
@@ -863,11 +871,15 @@ a:hover {
   border-radius: 50%;
   background-color: #f64100;
   color: white;
-  /* top: -10px; */
-  /* right: -10px; */
-  padding: 5px 6px;
+  padding: 0px 2px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .sortitem {
   position: relative;
   background: #1f2327;
@@ -3379,4 +3391,9 @@ PAGE 20
   ********************** */
 .inner-order .ordermenu-icons {
   position: inherit;
+}
+.badge {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
 }

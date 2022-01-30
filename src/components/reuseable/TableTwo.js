@@ -5,7 +5,7 @@ import Commentsoff from "../../assets/img/Commentsoff.svg";
 import ChatOff from "../../assets/img/ChatOff.svg";
 import Complainoff from "../../assets/img/Complainoff.svg";
 
-const TableTwo = () => {
+const TableTwo = (props) => {
   return (
     <div className="row">
       <div className="col-lg-12">
@@ -20,7 +20,7 @@ const TableTwo = () => {
     </div>
   );
 };
-const TableRow = () => {
+const TableRow = (props) => {
   return (
     <>
       {tableData2.map((data) => {
@@ -42,6 +42,7 @@ const TableRow = () => {
           deliveryCharges,
           currentStatus,
         } = data;
+
         return (
           <tr key={id}>
             <th scope="row">

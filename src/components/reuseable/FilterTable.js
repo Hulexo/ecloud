@@ -3,15 +3,16 @@ import oval from "../../assets/img/Oval.svg";
 import chatoff from "../../assets/img/ChatOff.svg";
 import { TableData } from "../../json/db";
 
-const FilterTable = () => {
+const FilterTable = (orderStatus) => {
   return (
     <div className="table-responsive">
-      <Table />
+      <Table orderStatus={orderStatus} />
     </div>
   );
 };
 
-const Table = () => {
+const Table = (props) => {
+  const { orderStatus } = props;
   return (
     <table className="table table-bordered table-hover">
       <thead>
@@ -31,13 +32,17 @@ const Table = () => {
         </tr>
       </thead>
       <tbody>
-        <TableBody />
+        <TableBody orderStatus={orderStatus} />
       </tbody>
     </table>
   );
 };
 
-const TableBody = () => {
+const TableBody = (props) => {
+  const { orderStatus } = props;
+  React.useEffect(() => {
+    console.log(orderStatus);
+  }, [orderStatus]);
   return (
     <>
       {TableData.map((data) => {
@@ -55,46 +60,91 @@ const TableBody = () => {
           Date,
           Cancel,
         } = data;
-        return (
-          <tr key={id}>
-            <th scope="row">
-              <input
-                className="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              {Brand}
-            </th>
+        if (
+          orderStatus.orderStatus !== "" &&
+          orderStatus.orderStatus === status
+        ) {
+          return (
+            <tr key={id}>
+              <th scope="row">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                {Brand}
+              </th>
 
-            <td>{status}</td>
-            <td>{Menu}</td>
-            <td>{Total}</td>
-            <td>
-              <img src={oval} className="ridericon" alt="" />
-              <span>{Rider}</span>
-            </td>
-            <td>
-              <img src={oval} className="ridericon" alt="" />
-              <span>{Preparing}</span>
-            </td>
-            <td>
-              {Amount} <span className="aed">AED</span>
-            </td>
-            <td>
-              {Profit} <span className="aed">AED</span>
-            </td>
-            <td>{Time}</td>
-            <td>{Date}</td>
-            <td>
-              <img src={oval} className="ridericon" alt="" />
-              <span>{Cancel}</span>
-            </td>
-            <td>
-              <img src={chatoff} alt="" />
-            </td>
-          </tr>
-        );
+              <td>{status}</td>
+              <td>{Menu}</td>
+              <td>{Total}</td>
+              <td>
+                <img src={oval} className="ridericon" alt="" />
+                <span>{Rider}</span>
+              </td>
+              <td>
+                <img src={oval} className="ridericon" alt="" />
+                <span>{Preparing}</span>
+              </td>
+              <td>
+                {Amount} <span className="aed">AED</span>
+              </td>
+              <td>
+                {Profit} <span className="aed">AED</span>
+              </td>
+              <td>{Time}</td>
+              <td>{Date}</td>
+              <td>
+                <img src={oval} className="ridericon" alt="" />
+                <span>{Cancel}</span>
+              </td>
+              <td>
+                <img src={chatoff} alt="" />
+              </td>
+            </tr>
+          );
+        } else if (orderStatus.orderStatus === "All") {
+          return (
+            <tr key={id}>
+              <th scope="row">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                {Brand}
+              </th>
+              <td>{status}</td>
+              <td>{Menu}</td>
+              <td>{Total}</td>
+              <td>
+                <img src={oval} className="ridericon" alt="" />
+                <span>{Rider}</span>
+              </td>
+              <td>
+                <img src={oval} className="ridericon" alt="" />
+                <span>{Preparing}</span>
+              </td>
+              <td>
+                {Amount} <span className="aed">AED</span>
+              </td>
+              <td>
+                {Profit} <span className="aed">AED</span>
+              </td>
+              <td>{Time}</td>
+              <td>{Date}</td>
+              <td>
+                <img src={oval} className="ridericon" alt="" />
+                <span>{Cancel}</span>
+              </td>
+              <td>
+                <img src={chatoff} alt="" />
+              </td>
+            </tr>
+          );
+        }
       })}
     </>
   );

@@ -1,16 +1,24 @@
 import React from "react";
 // import Tags from "../reuseable/Tags";
 
-const StatusSearchDate = () => {
+const StatusSearchDate = (props) => {
   return (
     <div>
       <div className="row mt-3">
         <div className="col-lg-6 helo">
-          <select className="form-select" aria-label="Default select example">
-            <option selected>Status</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+          <select
+            className="form-select"
+            aria-label="Default select example"
+            defaultValue
+          >
+            <option value="All" selected>
+              Status
+            </option>
+            <option value="new">New</option>
+            <option value="preparing">Preparing</option>
+            <option value="norider">No rider</option>
+            <option value="ontheway">on the way</option>
+            <option value="ontime">ontime</option>
           </select>
         </div>
         <div className="col-lg-3 helo">

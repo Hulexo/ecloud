@@ -7,9 +7,6 @@ import { tableData4 } from "../json/db";
 const UserInfoTable = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage] = useState(15);
-  useEffect(() => {
-    console.log(tableData4);
-  });
 
   // get current post
   const indexOfLastPost = currentPage * postPerPage;

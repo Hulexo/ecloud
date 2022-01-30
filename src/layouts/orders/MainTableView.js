@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Sidebar from "../../components/reuseable/Sidebar";
 import Header from "../../components/reuseable/Header";
 import OrderStatus from "../../components/reuseable/OrderStatus";
@@ -9,6 +9,7 @@ import MenuOrderDetailsCard from "../../components/reuseable/MenuOrderDetailsCar
 import AddIcon from "../../components/reuseable/AddIcon";
 
 const MainTableView = () => {
+  const { status, setStatus } = useState("All");
   return (
     <div className="container-fluid">
       <div className="row">
@@ -23,8 +24,8 @@ const MainTableView = () => {
                 <div className="order-cards">
                   <OrderStatus />
                   <OrderMenuCards />
-                  <StatusSearchDate />
-                  <TableTwo />
+                  <StatusSearchDate status={status} setStatus={setStatus} />
+                  <TableTwo status={status} />
                 </div>
               </div>
               <div className="col-lg-3 menuorder-detailscard ">
