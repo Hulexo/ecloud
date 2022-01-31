@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Complain-off-Copy">
+    <g id="Complain-On">
+      <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" id="Oval" fill="none" fill-rule="evenodd" stroke="#F64100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 1.80428C0.436893 0.562317 1.70585 -0.183457 3.00346 0.0391178C4.30107 0.261693 5.24896 1.38771 5.247 2.70428C5.247 4.50428 2.547 5.40428 2.547 5.40428L2.619 8.10428" transform="translate(6.3810005 3.6000001)" id="Path" fill="none" fill-rule="evenodd" stroke="#F64100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0.45 0L0.45 0.9" transform="translate(8.55 14.400001)" id="Path" fill="none" fill-rule="evenodd" stroke="#F64100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

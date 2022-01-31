@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="58px" height="63px" viewBox="0 0 58 63" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Big-Chat">
+    <g id="Big-Chat" opacity="0.65455264">
+      <path d="M29.1782 0.000558319C13.1622 -0.097707 0.0990162 12.7877 0.000558036 28.7808C-0.0567653 38.1051 4.3065 46.4258 11.1282 51.7643L10.8344 60.3665C10.7659 62.37 12.9381 63.6609 14.6689 62.6453L26.1653 57.7784C27.0402 57.8633 27.9258 57.9115 28.8218 57.917C44.8377 58.0152 57.901 45.1299 57.9994 29.1367C58.0978 13.1435 45.1941 0.0988236 29.1782 0.000558319" id="Fill-1" fill="#647480" fill-rule="evenodd" stroke="none" />
+      <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(16 26)" id="Oval" fill="#B7CCDB" fill-rule="evenodd" stroke="none" />
+      <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(25.5 26)" id="Oval-Copy-2" fill="#B7CCDB" fill-rule="evenodd" stroke="none" />
+      <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(35 26)" id="Oval-Copy-3" fill="#B7CCDB" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

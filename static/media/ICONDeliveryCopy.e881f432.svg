@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="52px" height="51px" viewBox="0 0 52 51" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="ICON-Delivery-Copy">
+    <g id="ICON-Delivery">
+      <path d="M36.4084 9.58251L38.6684 14.9165C39.2131 16.9313 37.7813 18.5777 35.7013 20.0091L28.5705 20.0091L25.6732 12.3258C25.375 11.5463 24.6146 11.03 23.7654 11.03L12.9533 11.03C7.86001 11.03 5.14101 19.9429 5.14101 22.0061L21.4397 22.0061L24.4958 26L37.7387 26L43.8506 21.0075L52 21.0075C51.2314 18.8265 50.0147 16.6318 46.1426 15.8072L40.7945 6.03037L42.8318 4.03341L42.8318 0.0394866L0 0" transform="translate(0 22)" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <g id="Burger-Icon" transform="translate(10 0)">
+        <path d="M3.7612 15.8333C1.68395 15.8333 0 14.0362 0 11.8192C0 9.60232 1.68395 7.80517 3.7612 7.80517C3.93035 7.80517 4.09691 7.81708 4.26016 7.84016C4.20715 7.61516 4.17911 7.37914 4.17911 7.13614C4.17911 5.53504 5.39529 4.23709 6.89555 4.23709C7.57294 4.23709 8.19247 4.50172 8.66822 4.93943C8.78649 4.89971 8.90689 4.86426 9.029 4.83336C9.80794 2.04191 12.3 0 15.2537 0C18.0475 0 20.4282 1.82668 21.3372 4.38671C21.7319 4.28874 22.1439 4.23709 22.5672 4.23709C25.5676 4.23709 28 6.83299 28 10.0352C28 13.2374 25.5676 15.8333 22.5672 15.8333L3.7612 15.8333Z" transform="translate(-1 2.1111112)" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" />
+      </g>
+      <path d="M0 0C0.474606 2.28257 2.53388 4 5.00253 4C7.46224 4 9.51559 2.29499 10 0.0248447" transform="translate(10 47)" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 2.63428C0.858063 4.05451 2.38937 5 4.13544 5C6.82216 5 9 2.76152 9 0" transform="translate(42 46)" id="Stroke-5" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.0838068L3 0.0838068" transform="translate(2 25.916193)" id="Stroke-163" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.0838068L2 0.0838068" transform="translate(4 29.916193)" id="Stroke-165" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

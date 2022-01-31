@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.21568628 0 0 0 0 0.25490198 0 0 0 0 0.28235295 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Chat-Off" filter="url(#filter_1)">
+    <path d="M9.64179 0C14.8102 0 19 4.17879 19 9.33359C19 14.4884 14.8102 18.6672 9.64179 18.6672C8.00542 18.6672 6.46736 18.2479 5.12918 17.5117L0.731029 18.9704C0.525045 19.0387 0.312051 18.9873 0.16007 18.8328C0.00810666 18.6782 -0.0391622 18.4647 0.0333606 18.2607L1.54311 14.0134L1.54388 14.0139C0.742705 12.638 0.283595 11.0393 0.283595 9.33359C0.283595 4.17879 4.4734 0 9.64179 0Z" transform="matrix(1 -1.7484555E-07 1.7484555E-07 1 -1.6610328E-06 1.6610328E-06)" id="Chat-Off" fill="none" fill-rule="evenodd" stroke="#B7CCDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

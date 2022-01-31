@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="45px" height="56px" viewBox="0 0 45 56" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="ICON-Kitchen-Copy">
+    <g id="ICON-Kitchen" transform="translate(0 11)">
+      <path d="M8 32L3.74367 32C1.67611 32 0 30.222 0 28.0289L0 0" transform="translate(6 12)" id="Stroke-7" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M24 7L6.85714 7L3.20886 7C1.43667 7 0 5.22198 0 3.02893C0 3.02893 0 0.955359 0 1.55431e-15" transform="matrix(-1 0 0 1 38 37)" id="Stroke-7-Copy" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0.5 4.5L0.5 0.5" transform="translate(37 11)" id="Line" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 13L22.5 0L45 13" id="Stroke-167" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="Burger-Icon" transform="translate(18 28)">
+      <path d="M3.7612 15C1.68395 15 0 13.2974 0 11.1972C0 9.09694 1.68395 7.39437 3.7612 7.39437C3.93035 7.39437 4.09691 7.40566 4.26016 7.42752C4.20715 7.21436 4.17911 6.99077 4.17911 6.76055C4.17911 5.24372 5.39529 4.01408 6.89555 4.01408C7.57294 4.01408 8.19247 4.26478 8.66822 4.67946C8.78649 4.64183 8.90689 4.60824 9.029 4.57898C9.80794 1.93444 12.3 0 15.2537 0C18.0475 0 20.4282 1.73054 21.3372 4.15583C21.7319 4.06302 22.1439 4.01408 22.5672 4.01408C25.5676 4.01408 28 6.47336 28 9.50703C28 12.5407 25.5676 15 22.5672 15L3.7612 15Z" transform="translate(-1 2)" id="Stroke-1" fill="none" fill-rule="evenodd" stroke="#FEFEFE" stroke-width="2" />
+    </g>
+  </g>
+</svg>
