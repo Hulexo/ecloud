@@ -182,11 +182,14 @@ const Header = () => {
             <p className="gktext">GK</p>
           </div>
           <div className="usernametogle">
-            <select className="form-select" aria-label="">
-              <option defaultValue>User name</option>
-              <option value="1">Profile</option>
-              <option value="2">Sign out</option>
-            </select>
+            <div class="dropdown">
+              <span>Admin</span>
+              <div class="dropdown-content">
+                <p>Hello World!</p>
+                <p>Hello World!</p>
+                <p>Hello World!</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
