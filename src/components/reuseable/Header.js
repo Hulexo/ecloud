@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation, useHistory } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/img/CLOUD-Logo.svg";
 import share from "../../assets/img/share.svg";
 import dark from "../../assets/img/SwitchtoLigh.svg";
@@ -7,7 +7,6 @@ import ICONKitchen from "../../assets/img/ICONKitchen.svg";
 
 const Header = () => {
   const location = useLocation();
-  const history = useHistory();
   const currentUrl = location.pathname;
   return (
     <div className="row topbar">
@@ -182,13 +181,32 @@ const Header = () => {
             <p className="gktext">GK</p>
           </div>
           <div className="usernametogle">
-            <div class="dropdown">
-              <span>Admin</span>
-              <div class="dropdown-content">
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-                <p>Hello World!</p>
-              </div>
+            <div className="dropdown">
+              <Link
+                className="btn btn-secondary shadow-none dropdown-toggle border-0"
+                to="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cloud Admin
+              </Link>
+              <ul
+                className="dropdown-menu mt-2"
+                aria-labelledby="dropdownMenuLink"
+              >
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Profile
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                    Logout
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

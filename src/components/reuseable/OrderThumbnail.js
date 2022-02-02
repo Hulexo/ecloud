@@ -1,56 +1,45 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import big from "../../assets/img/OrderBigThumbnail01.svg";
-import small from "../../assets/img/OrdersmallThumbnail01.svg";
 
 const OrderThumbnail = () => {
   return (
     <div className="orderthumbail">
-      <div className="items">123</div>
-      <div>
-        <Link to="#">
-          <img src={big} alt="" />
-        </Link>
-      </div>
-      <div className="orderthumbail-notifiaction">
-        <div>
-          <Link to="#">
-            <img src={big} alt="" />
-          </Link>
-          <Link to="#">
-            <img src={big} alt="" />
-          </Link>
+      <div className="badges_main">
+        <div className="badg_inner">
+          <ul>
+            <li>000</li>
+            <li>items</li>
+          </ul>
         </div>
-        <div>
+        <div className="badg_inner">
+          <ul>
+            <li>000</li>
+            <li>items</li>
+          </ul>
           <span>8</span>
         </div>
-      </div>
-      <div>
-        <Link to="#">
-          <img src={small} alt="" />
-        </Link>
-      </div>
-
-      <div>
-        <Link to="#">
-          <img src={small} alt="" />
-        </Link>
-      </div>
-      <div className="orderthumbail-notifiaction">
-        <div>
-          <Link to="#">
-            <img src={small} alt="" />
-          </Link>
+        <div className="badg_inner">
+          <ul>
+            <li>000</li>
+            <li>items</li>
+          </ul>
         </div>
-        <div>
+        <div className="badg_innertwo">
+          <ul>
+            <li>00</li>
+          </ul>
           <span>2</span>
         </div>
-      </div>
-
-      <div>
-        <Link to="#">
-          <img src={small} alt="" />
-        </Link>
+        <div className="badg_innertwo">
+          <ul>
+            <li>00</li>
+          </ul>
+          <span>2</span>
+        </div>
+        <div className="badg_innertwo">
+          <ul>
+            <li>00</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

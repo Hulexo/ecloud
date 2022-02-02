@@ -1,8 +1,4 @@
 import React from "react";
-import CG from "../../assets/img/CG.svg";
-import CY from "../../assets/img/CY.svg";
-import CB from "../../assets/img/CB.svg";
-import CR from "../../assets/img/CR.svg";
 import CardRiderOff from "../../assets/img/CardRiderOff.svg";
 import CardPrinterOff from "../../assets/img/CardPrinterOff.svg";
 
@@ -26,19 +22,19 @@ const OrderStatus = () => {
           </p>
         </div>
         <div className="circle">
-          <img src={CG} alt="" />
+          <span class="circle_inner" />
           <span>20</span>
         </div>
         <div className="circle">
-          <img src={CY} alt="" />
+          <span class="circle_inner2" />
           <span>15</span>
         </div>
         <div className="circle">
-          <img src={CB} alt="" />
+          <span class="circle_inner3" />
           <span>27</span>
         </div>
         <div className="circle">
-          <img src={CR} alt="" />
+          <span class="circle_inner4" />
           <span>15</span>
         </div>
         <div className="circle">
